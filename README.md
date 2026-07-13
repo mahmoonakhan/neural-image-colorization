@@ -235,7 +235,7 @@ cd neural-image-colorization
 pip install -r requirements.txt
 
 # 3. Download dataset (manual or via Kaggle API)
-# Place images in data/train/ and data/val/
+ Place images in data/train/ and data/val/
 
 # 4. Run training
 python train.py
