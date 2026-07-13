@@ -1,55 +1,24 @@
-# Prerequisites
-*.d
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Jupyter
+.ipynb_checkpoints
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Model files (large)
+*.pth
+*.h5
+*.pkl
 
-# Precompiled Headers
-*.gch
-*.pch
+# Data
+data/
+*.zip
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Results
+results/
+samples/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# OS
+.DS_Store
+Thumbs.db
